@@ -1,0 +1,21 @@
+{
+  "odds": [
+    {
+      "match_id": "SOC-001",
+      "sport": "soccer",
+      "league": "EPL",
+      "kickoff_ts": "2026-07-05T22:00:00+09:00",
+      "home_team": "Arsenal",
+      "away_team": "Chelsea",
+      "market": "1x2",
+      "side": "home",
+      "bookmaker": "BMBets",
+      "opening_odds": 1.88,
+      "previous_odds": 1.82,
+      "current_odds": 1.74,
+      "sharp_book_odds": 1.71,
+      "market_avg_odds": 1.78,
+      "domestic_odds": 1.79
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: odds-ai-pwa
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: DATA_MODE
+        value: demo
+      - key: BMBETS_API_URL
+        sync: false
+      - key: BMBETS_API_KEY
+        sync: false
+      - key: PINNACLE_API_URL
+        sync: false
+      - key: PINNACLE_API_KEY
+        sync: false
